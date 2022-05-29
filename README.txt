@@ -65,7 +65,7 @@
     Для поиска минимальной или максимальной зарплаты нужно после фильтрации использовать методы min и max, передав в качестве компаратора строку кода, представленную ниже.
     
     ```java
-    Comparator.comparingInt(employee -> employee.getSalary())
+    Comparator.comparingInt(student -> student.getSalary())
     ```
     
 - Критерии оценки:

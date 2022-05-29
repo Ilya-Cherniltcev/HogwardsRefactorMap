@@ -1,10 +1,10 @@
-package pro.sky.MapEmployeeHW8;
+package pro.sky.HogwardsRefactorMap;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ExceptionsEmployeeHW8ApplicationTests {
+class ExceptionsStudentHW8ApplicationTests {
 
     @Test
     void contextLoads() {

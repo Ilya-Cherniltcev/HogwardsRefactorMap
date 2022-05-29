@@ -1,4 +1,4 @@
-package pro.sky.MapEmployeeHW8;
+package pro.sky.HogwardsRefactorMap;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
