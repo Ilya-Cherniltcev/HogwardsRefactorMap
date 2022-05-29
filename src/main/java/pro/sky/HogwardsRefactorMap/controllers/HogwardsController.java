@@ -58,13 +58,13 @@ public class HogwardsController {
         return studentService.findStudent(Name);
     }
 
-    // ----------  удалить студента
+    // ----------  удалить студента -------------
     @GetMapping(path = "/remove")
     public String deleteStudent(@RequestParam("name")  String studentName) {
         return studentService.deleteStudent(studentName);
     }
 
-    // ===========  печать всех студентов
+    // ===========  печать всех студентов =========
     @GetMapping(path = "/printall")
     public Map<String,Student> printAllStudents() {
         return studentService.printAllStudents();
