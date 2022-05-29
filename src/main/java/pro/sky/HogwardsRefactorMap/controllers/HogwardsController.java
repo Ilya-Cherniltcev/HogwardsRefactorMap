@@ -52,7 +52,7 @@ public class HogwardsController {
         return studentService.addNewHuffle( studentName,  magic,  apparition,
          diligence,  loyalty,  honesty);
     }
-    // ???????????  найти студента
+    // ???????????  найти студента ?????????????
     @GetMapping(path = "/find")
     public Student findStudent(@RequestParam("name") String Name) {
         return studentService.findStudent(Name);
